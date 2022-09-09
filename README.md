@@ -19,6 +19,7 @@ ___
     * [Project Goals](#project-goals)
     * [Business Goals](#business-goals)
     * [Value to Users](#value-to-users)
+    * [Key Demographic](#key-demographic)
 * [Scope](#scope)
     * [Features](#features)
 * [Structure](#structure)
@@ -101,6 +102,8 @@ ___
 
 # Strategy
 
+From the user stories the following goals have been recognised for the project, business and user strategy.
+
 ## Project Goals
 The aim for this project is to produce a web app for Lakeside Art Prints. Users will be able to register an account for or continue as a guest user. The site will enable all users to navigate the full art product. Add items to a basket, edit and delete basket items and make payments using stripe payment system. Registered users will have the additional advantage of easy payment process with auto complete forms and a full view of order history. 
 
@@ -123,6 +126,27 @@ ___
 # Scope
 
 ## Features
+
+The following list of objectives has been determined to designed and achieve a well-balanced website that meets the needs and requirements of the business and users strategy outcomes.  Within the designated time scale the following criteria will be introduced to the website on initial release.
+
+| Features   | Importance |
+| :---------- | ---: |
+| Details on art and artist | 1 |
+| Search option to refine criteria |  |
+| Print size options |  |
+| Delivery estimation and cost |  |
+| Add, edit, and delete basket items |  |
+| Make pruchases as a guest user |  |
+| Register and sign in to a personal profile account |  |
+| Log in and out of registered account |  |
+| Edit and update profile details |  |
+| View my full purchase history |  |
+| Retrieve or reset forgotten passwords |  |
+| Deactivate registered account |  |
+| Contact details for the company |  |
+| Add, Edit/update and delete products from admin account |  |
+
+
 
 [Back to top](#contents)
 ___

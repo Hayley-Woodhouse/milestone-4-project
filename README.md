@@ -12,8 +12,13 @@ ___
 * [Project Summary](#project-summary)
 * [UX Design](#ux-design)
     * [User Stories](#user-stories)
+        * [Guest User](#guest-user)
+        * [Registered User](#registered-user)
+        * [Admin](#admin)
 * [Strategy](#strategy)
     * [Project Goals](#project-goals)
+    * [Business Goals](#business-goals)
+    * [Value to Users](#value-to-users)
 * [Scope](#scope)
     * [Features](#features)
 * [Structure](#structure)
@@ -97,6 +102,21 @@ ___
 # Strategy
 
 ## Project Goals
+The aim for this project is to produce a web app for Lakeside Art Prints. Users will be able to register an account for or continue as a guest user. The site will enable all users to navigate the full art product. Add items to a basket, edit and delete basket items and make payments using stripe payment system. Registered users will have the additional advantage of easy payment process with auto complete forms and a full view of order history. 
+
+
+## Business Goals
+The business' admin account will be able to manage the product data. Adding updating/editing and deleting products. Recieve order details to keep up to date with purcharse.  
+
+
+## Value to Users 
+Users get a full product art and artist deptails. A size Guide to help with purchasing choices.
+Registered users can keep track of purchases, manage a peronal profile, and make less hassle purchases. 
+
+## Key Demographic
+- Art enthusiast of all ages
+- Interior designers 
+- Customers making home improvements
 
 [Back to top](#contents)
 ___
@@ -204,6 +224,10 @@ The followng technologies were used for the web app development
 - [Chrome DevTools](https://en.wikipedia.org/wiki/Web_development_tools)
     
     allow web developers to test and debug their code. 
+
+- [tinyPNG](https://tinypng.com/) 
+
+    Used within development process to compress image file size.
 
 ## Validation and Testing
 

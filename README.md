@@ -22,6 +22,7 @@ ___
     * [Key Demographic](#key-demographic)
 * [Scope](#scope)
     * [Features](#features)
+    * [Functionality](#functionality)
 * [Structure](#structure)
     * [Initial Page Structure](#initial-page-structure)
 * [Skelaton](#skeleton)
@@ -127,32 +128,49 @@ ___
 
 ## Features
 
-The following list of objectives has been determined to designed and achieve a well-balanced website that meets the needs and requirements of the business and users strategy outcomes.  Within the designated time scale the following criteria will be introduced to the website on initial release.
+The following list of objectives has been determined to designed and achieve a well-balanced website that meets the needs and requirements of the business and users strategy outcomes.  Within the designated time scale the following criteria will be introduced to the website on initial release. 
+
+Importance rating 1-5 (5 being most important)
 
 | Features   | Importance |
 | :---------- | ---: |
-| Details on art and artist | 1 |
-| Search option to refine criteria |  |
-| Print size options |  |
-| Delivery estimation and cost |  |
-| Add, edit, and delete basket items |  |
-| Make pruchases as a guest user |  |
-| Register and sign in to a personal profile account |  |
-| Log in and out of registered account |  |
-| Edit and update profile details |  |
-| View my full purchase history |  |
-| Retrieve or reset forgotten passwords |  |
-| Deactivate registered account |  |
-| Contact details for the company |  |
-| Add, Edit/update and delete products from admin account |  |
+| Details on art and artist | 2 |
+| Search option to refine criteria |3 |
+| Print size options | 4 |
+| Delivery estimation and cost | 4 |
+| Add, edit, and delete basket items | 5 |
+| Make pruchases as a guest user | 5 |
+| Register and sign in to a personal profile account | 5 |
+| Log in and out of registered account | 5 |
+| Edit and update profile details | 4 |
+| View my full purchase history | 3 |
+| Retrieve or reset forgotten passwords | 4 |
+| Deactivate registered account | 3 |
+| Contact details for the company | 3 |
+| Add, Edit/update and delete products from admin account | 5 |
 
+# Functionality
+
+- Clear presentation of information and imagery across a fully responsive web application
+- Easy navigation across all pages
+- Fast load and response time
+- Developer contact for updates and bug reports
 
 
 [Back to top](#contents)
 ___
 # Structure
 
-## Initial Page Structure
+## Site Map
+
+The topology diagrams indicate the site map design for a guest user and registered user.
+
+### Guest User Site Map
+
+![Guest user site map](assets/readme-images/guest-site-map.png)
+
+### Registered User Site Map
+![Guest user site map](assets/readme-images/Regitered-user-site-map.png)
 
 [Back to top](#contents)
 ___

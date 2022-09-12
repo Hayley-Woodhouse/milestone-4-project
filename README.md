@@ -24,9 +24,16 @@ ___
     * [Features](#features)
     * [Functionality](#functionality)
 * [Structure](#structure)
-    * [Initial Page Structure](#initial-page-structure)
+    * [Site Maps](#site-maps)
+        * [Guest User Site Map](#guest-user-site-map)
+        * [Registered User Site Map](#registered-user-site-map)
 * [Skelaton](#skeleton)
     * [Wireframes](#wireframes)
+        * [Home Page and Navigation Bar](#home-page-and-navigation-bar)
+        * [Shopping Page and Individual Product Selection](#shopping-page-and-individual-product-selection)
+        * [Basket and Checkout Page](#basket-and-checkout-page)
+        * [Payment Authentication and Confirmation Page](#payment-authentication-and-confirmation-page)
+        * [Registered User Profile Page](#registered-user-profile-page)
 * [Surface](#surface)
 * [Database](#database)
 * [Website Operation](#website-operations)
@@ -161,21 +168,48 @@ Importance rating 1-5 (5 being most important)
 ___
 # Structure
 
-## Site Map
+## Site Maps
 
 The topology diagrams indicate the site map design for a guest user and registered user.
 
 ### Guest User Site Map
 
+This site map displays the designed moveability across the site for a guest user without a registered account. With the highlight importance emphasised in the scope plane.
+
 ![Guest user site map](assets/readme-images/guest-site-map.png)
 
 ### Registered User Site Map
+
+This site map displays the designed moveability across the site for a registered account user. With the indication also from the scope plane the registered user has better access to order information and simpler billing as details will auto complete the account details.
+
 ![Guest user site map](assets/readme-images/Regitered-user-site-map.png)
 
 [Back to top](#contents)
 ___
 # Skelaton
 ## Wireframes
+
+These wireframes are designed using the site maps and features highlighted above. The following is the skeleton layout for the Lakeside Art Prints web app.
+
+### Home Page and Navigation Bar
+
+![Home page and nav wireframe](assets/readme-images/home-nav-wireframe.png)
+
+### Shopping Page and Individual Product Selection
+
+![Products views wireframe](assets/readme-images/products-wireframe.png)
+
+### Basket and Checkout Page
+
+![Basket and checkout wirefames](assets/readme-images/checkout-wireframe.png)
+
+### Payment Authentication and Confirmation Page
+
+![Payment and confirmation wireframes](assets/readme-images/payment-confirmation-wireframe.png)
+
+### Registered User Profile Page
+
+![Profile page wireframe](assets/readme-images/profile-wireframe.png)
 
 [Back to top](#contents)
 ___

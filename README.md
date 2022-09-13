@@ -175,13 +175,11 @@ The topology diagrams indicate the site map design for a guest user and register
 ### Guest User Site Map
 
 This site map displays the designed moveability across the site for a guest user without a registered account. With the highlight importance emphasised in the scope plane.
-
 ![Guest user site map](assets/readme-images/guest-site-map.png)
 
 ### Registered User Site Map
 
 This site map displays the designed moveability across the site for a registered account user. With the indication also from the scope plane the registered user has better access to order information and simpler billing as details will auto complete the account details.
-
 ![Guest user site map](assets/readme-images/Regitered-user-site-map.png)
 
 [Back to top](#contents)
@@ -193,22 +191,72 @@ These wireframes are designed using the site maps and features highlighted above
 
 ### Home Page and Navigation Bar
 
+#### The home page:
+-	Description about Lakeside Art Prints. What the company offer and how it got started.
+-	An opening image of artwork displayed in a home, products in use.
+-	Icons with descriptions about delivery, shipping cost and payment.
+-	Footer with information about the company, delivery, and returns, and how to make contact.
+#### The Nav bar:
+-	Search bar that enables users to refine a product list.
+-	Categories with further lists of product views by artist or art style.
+-	Sign in for registered users / replaced by a log out button when signed in.
+-	Register button for guest users to create an account / replaced by a profile button for users to view their page when they are signed in.
+-	The company Logo 
+-	Shopping basket icon for selected purchase items
 ![Home page and nav wireframe](assets/readme-images/home-nav-wireframe.png)
 
 ### Shopping Page and Individual Product Selection
 
+#### Shopping Page:
+-	A full scrolling list of art print images each with the name of the work, and the pricing starting from.
+-	A category and filter search buttons.
+-	Navbar and footer remaining
+#### Product Selection:
+-	An enlarge image of artwork clicked on
+-	An art size selector where prices increase the larger the image.
+-	Size guide for further measurement units
+-	Add to basket button
+-	Product description
+    -  Name of Art, and its age and art style
+	-  Name of Artist, dob, they nationality, type of artwork they specialised in.
+-	Navbar and footer remaining
 ![Products views wireframe](assets/readme-images/products-wireframe.png)
 
 ### Basket and Checkout Page
 
+#### Basket:
+-	Basket icon will increment with each item added to it.
+-	On click of the basket a view window with a list of products by image, name, size selected, quantity, price + delivery = total cost.
+-	Checkout button.
+#### Checkout Page:
+-	A list of products by image, name, size selected, quantity, price + delivery = total cost.
+-	A delivery field for guest users to fill in that will auto fill for registered users.
+-	Payment details field.
+-	Make payment button.
 ![Basket and checkout wirefames](assets/readme-images/checkout-wireframe.png)
 
 ### Payment Authentication and Confirmation Page
 
+#### Payment Authentication:
+-	Pop out window with Payment Authentication from stripe
+#### Confirmation Page:
+-	A title to confirm payment is complete
+-	A message that a receipt has been forwarded to the customer’s email
+-	A purchase order number.
+-	A button to take customer back to the home page.
 ![Payment and confirmation wireframes](assets/readme-images/payment-confirmation-wireframe.png)
 
 ### Registered User Profile Page
 
+#### Profile Account Page:
+-	A back button to move from the profile page.
+-	Links to:
+    -	Current orders to view pending delivery items and descriptions.
+    -	View all previous completed orders.
+	-   Personal details.
+        - Edit button to update information.
+-	Deactivate account button.
+-	Logout button.
 ![Profile page wireframe](assets/readme-images/profile-wireframe.png)
 
 [Back to top](#contents)
@@ -304,6 +352,10 @@ The followng technologies were used for the web app development
 - [tinyPNG](https://tinypng.com/) 
 
     Used within development process to compress image file size.
+
+- [Balsamiq Wireframes](https://balsamiq.com/)
+
+    A design software used for creating wireframes. 
 
 ## Validation and Testing
 

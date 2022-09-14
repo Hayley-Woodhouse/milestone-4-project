@@ -583,6 +583,25 @@ The followng technologies were used for the web app development
 
     is a python validating tool used in software development.
 
+- [Google Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse)
+
+    is an open-source, automated tool for measuring the quality of web pages.
+
+- [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome) 
+    
+    is a cross-platform web browser developed by Google.
+- [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge) 
+    
+    is a cross-platform web browser created and developed by Microsoft.
+
+- [Safari](https://en.wikipedia.org/wiki/Safari_(web_browser)) 
+    
+    is a graphical web browser developed by Apple.
+
+- [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox) 
+    
+    is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.
+
 [Back to top](#contents)
 ___
 # Credits

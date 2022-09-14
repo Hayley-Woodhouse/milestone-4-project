@@ -35,6 +35,12 @@ ___
         * [Payment Authentication and Confirmation Page](#payment-authentication-and-confirmation-page)
         * [Registered User Profile Page](#registered-user-profile-page)
 * [Surface](#surface)
+    * [Images](#images)
+        * [Home Page Images](#home-page-images)
+        * [Product Images](#product-images)
+    * [Dataset](#dataset)
+        * [Artist Dataset](#artish-dataset)
+        * [Art Dataset](#art-dataset)
 * [Database](#database)
 * [Website Operation](#website-operations)
 * [Testing](#testing)
@@ -263,6 +269,200 @@ These wireframes are designed using the site maps and features highlighted above
 ___
 # Surface
 
+The visual design for the website covers the colours, fonts, effects, and images.
+
+## Colours
+
+Web app colour design was selected to reflect an image chosen for the home page. The colour are simple, elegant and natural tones that will enable all art print images to stand out on screen.
+![colour selection](assets/readme-images/Colour-selectors-image.png)
+
+colour selection from [Image Colour Picker](https://imagecolorpicker.com/en)
+
+
+## Typography
+
+The fonts and sizes where selected from [Google Fonts](https://fonts.google.com/).
+
+- Cormorant Garamond
+    
+    Light 300
+
+- Noto Serif Georgian
+    
+    ExtraLight 200
+    
+    Light 300
+
+## Images
+
+## Home page Images
+These Images will carousel on the homepage. The wall mounted pictures are products available to purchase from Lakeside Art Prints.
+
+![Home Page Images](assets/readme-images/home-page-images.png)
+
+These are [Unsplash images by Kam Idris](https://unsplash.com/@ka_idris) and adapted using [Pixlr](https://pixlr.com/)
+
+## Product Images
+
+The shop app will require visual imagery of each product. The artist and images of their works along with the direct source of the imagery is available in the dropdown selector below.
+
+<details><summary>Product Images</summary>
+
+#### Wassily Kandinsky Artwork. 
+Images from [WikiArt](https://www.wikiart.org/)
+![Wassily Kandinsky Artwork](assets/readme-images/kandinsky-art.png)
+
+#### Jackson Pollock Artwork. 
+Images from [Jackson-Pollock.org](https://www.jackson-pollock.org/)
+![Jackson Pollock Artwork](assets/readme-images/pollock-art.png)
+
+#### Bridget Riley Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Bridget Riley Artwork](assets/readme-images/Riley-art.png)
+
+#### Norman Rockwell Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Norman Rockwell Artwork](assets/readme-images/rockwell-art.png)
+
+#### Vicente Romero Redondo Artwork.
+Images from [Forest Gallery](https://www.forestgallery.com/)
+![Vicente Romero Redondo Artwork](assets/readme-images/redondo-art.png)
+
+#### Michael Armitage Artwork.
+Images from [Royal Academy](https://www.royalacademy.org.uk/)
+![Michael Armitage Artwork](assets/readme-images/armitage-art.png)
+
+#### Kazimir Malevich Artwork
+Images from [Jon Blackwood](https://jonblackwood.net/)
+![Kazimir Malevich Artwork](assets/readme-images/malevich-art.png)
+
+#### Sean Scully Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Sean Scully Artwork](assets/readme-images/scully-art.png)
+
+#### Edna Andrade Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Edna Andrade Artwork](assets/readme-images/andrade-art.png)
+
+#### Pablo Picasso Artwork.
+Images from [Pablio-Picasso.net](https://www.pablopicasso.net/)
+![Pablo Picasso Artwork](assets/readme-images/picasso-art.png)
+
+#### Agnes Martin Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Agnes Martin Artwork](assets/readme-images/martin-art.png)
+
+#### Jiro Yoshihara Artwork. 
+Images from [WikiArt](https://www.wikiart.org/)
+![Jiro Yoshihara Artwork](assets/readme-images/yoshihara-art.png)
+
+#### Vincent Van Gogh Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Vincent Van Gogh Artwork](assets/readme-images/van-gogh-art.png)
+
+#### Nives Palmic Artwork.
+Images from [Fine Art America](https://fineartamerica.com/)
+![Nives Palmic Artwork](assets/readme-images/palmic-art.png)
+
+#### Claude Monet Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Claude Monet Artwork](assets/readme-images/monet-art.png)
+
+#### Andy Warhol Artwork.
+Images from [MFA](https://www.masterworksfineart.com/)
+![Andy Warhol Artwork](assets/readme-images/warhol-art.png)
+
+#### Roy Lichtenstein Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Roy Lichtenstein Artwork](assets/readme-images/lichtenstein-art.png)
+
+#### Julian Opie Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Julian Opie Artwork](assets/readme-images/opie-art.png)
+
+#### Frida Kahlo Artwork.
+Images from [FridaKohle.org](https://www.fridakahlo.org/frida-kahlo-paintings.jsp)
+![Frida Kahlo Artwork](assets/readme-images/kahlo-art.png)
+
+#### Kehinda Wiley Artwork.
+Images from [Stephen Friedman Gallery](https://www.stephenfriedman.com/)
+![Kehinda Wiley Artwork](assets/readme-images/wiley-art.png)
+
+#### Elizabeth Peyton Artwork.
+Images from [Thaddaeus Ropac](https://ropac.net/)
+![Elizabeth Peyton Artwork](assets/readme-images/peyton-art.png)
+
+#### Hilary Pecis Artwork.
+Images from [Thaddaeus Ropac](https://www.hilarypecis.com/)
+![Hilary Pecis Artwork](assets/readme-images/pecis-art.png)
+
+#### Paul Cezanne Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Paul Cezanne Artwork](assets/readme-images/cezanna-art.png)
+
+#### Sharon Core Artwork.
+Images from [Yancey Richards](https://www.yanceyrichardson.com/)
+![Sharon Core Artwork](assets/readme-images/core-art.png)
+
+#### Salvador Dali Artwork.
+Images from [Dali Paintings](https://www.dalipaintings.com/)
+![Salvador Dali Artwork](assets/readme-images/dali-art.png)
+
+#### Remedio Varo Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Remedio Varo Artwork](assets/readme-images/varo-art.png)
+
+#### Zdzislaw Beksinski Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Zdzislaw Beksinski Artwork](assets/readme-images/beksinski-art.png)
+
+#### Christopher Wool Artwork.
+Images from [Luhring Augustine](https://www.luhringaugustine.com/)
+![Christopher Wool Artwork](assets/readme-images/wool-art.png)
+
+#### Craig Ward Artwork.
+Images from [Words are Pictures](http://wordsarepictures.co.uk/)
+![Craig Ward Artwork](assets/readme-images/ward-art.png)
+
+#### Deniz Akerman Artwork.
+Images from [IN PRNT](https://www.inprnt.com/)
+![Deniz Akerman Artwork](assets/readme-images/akerman-art.png)
+
+#### Banksy Artwork.
+Images from [WikiArt](https://www.wikiart.org/)
+![Banksy Artwork](assets/readme-images/banksy-art.png)
+
+#### Jbesset Artwork.
+Images from [Artsper](https://www.artsper.com/gb/contemporary-artists/france/4171/jbesset)
+![Jbesset Artwork](assets/readme-images/besset-art.png)
+
+#### Mariana PTKS Artwork.
+Images from [Compulsive Content](https://www.compulsivecontents.com/)
+![Mariana PTKS Artwork](assets/readme-images/ptks-art.png)
+
+</details> 
+
+## Dataset
+
+The information gathered for the datasets comes from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [WikiArt](https://www.wikiart.org/) and list of galleries and artist websites that are listed with the products images.
+
+### Artist Dataset
+<details><summary>Click for the artist dataset</summary>
+
+![Artist dataset 1](assets/readme-images/artist-dataset-1.png)
+![Artist dataset 2](assets/readme-images/artist-dataset-2.png)
+![Artist dataset 3](assets/readme-images/artist-dataset-3.png)
+</details> 
+
+### Art Dataset
+<details><summary>Click for the art dataset</summary>
+
+![Art dataset 1](assets/readme-images/art-dataset-1.png)
+![Art dataset 2](assets/readme-images/art-dataset-2.png)
+![Art dataset 3](assets/readme-images/art-dataset-3.png)
+</details> 
+
+
 [Back to top](#contents)
 ___
 # Database
@@ -312,6 +512,10 @@ The followng technologies were used for the web app development
     
     is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 
+- [Google Fonts](https://en.wikipedia.org/wiki/Google_Fonts)
+
+    is a computer font and web font service owned by Google.
+
 ## Frameworks and Extentions
 
 - [Django](https://en.wikipedia.org/wiki/Django_(web_framework))
@@ -357,6 +561,10 @@ The followng technologies were used for the web app development
 
     A design software used for creating wireframes. 
 
+- [Pixlr](https://pixlr.com/)
+
+    An image source and editing tool
+
 ## Validation and Testing
 
 - [W3 validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)
@@ -378,6 +586,15 @@ The followng technologies were used for the web app development
 [Back to top](#contents)
 ___
 # Credits
+
+- The information gathered for the datasets comes from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [WikiArt](https://www.wikiart.org/) and list of galleries and artist websites that are listed with the products images.
+- Videos and teachings from [code institute](https://codeinstitute.net/) 
+- Tuition, guidence, and project guidelines from [Harlow College](https://www.harlow-college.ac.uk/)
+
+For development design support the following websites were used for research
+
+- [Desenio](https://desenio.co.uk/) 
+- [King and McGaw](https://www.kingandmcgaw.com/)
 
 
 

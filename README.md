@@ -45,8 +45,6 @@ ___
 * [Website Operation](#website-operations)
 * [Testing](#testing)
 * [Deployment](#deployment)
-    * [GitHub](#github)
-    * [Heroku](#heroku)
 * [Technologies](#technologies)
     * [Programming Languages](#programming-languages)
     * [Libraries](#libraries)
@@ -475,9 +473,14 @@ ___
 ___
 # Testing
 
+Click the [link](TESTING.md) for testing.
+
 [Back to top](#contents)
 ___
 # Deployment
+
+Click the [link](Deployment.md) for Deployment.
+
 
 ## Github
 

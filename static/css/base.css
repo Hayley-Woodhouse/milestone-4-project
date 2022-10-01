@@ -66,6 +66,10 @@ body {
     border: 1px solid black !important;
 }
 
+hr {
+    border-top: 6px solid #997e65; 
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

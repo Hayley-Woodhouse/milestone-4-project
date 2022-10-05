@@ -54,7 +54,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #9e9c98;
     color: white;
 }
 
@@ -64,6 +64,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.panel-body > p {
+    color: #997e65 ;
 }
 
 hr {

@@ -7,8 +7,32 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
+
+            <li class="nav-item dropdown">
+                <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Art Style
+                </a>
+                <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                    <a href="{% url 'products' %}?category=abstract_art" class="dropdown-item">Abstract Art</a>
+                    <a href="{% url 'products' %}?category=figurative_art" class="dropdown-item">Figurative Art</a>
+                    <a href="{% url 'products' %}?category=non_objective_art" class="dropdown-item">Non-objective Art</a>
+                    <a href="{% url 'products' %}?category=neo_geo_art" class="dropdown-item">Neo-Geo Art</a>
+                    <a href="{% url 'products' %}?category=neo_minimalism_art" class="dropdown-item">Neo-Minimalism</a>
+                    <a href="{% url 'products' %}?category=colour_field_art" class="dropdown-item">Colour Field Art</a>
+                    <a href="{% url 'products' %}?category=op_art" class="dropdown-item">Op Art</a>
+                    <a href="{% url 'products' %}?category=minimalism_art" class="dropdown-item">Minimalism</a>
+                    <a href="{% url 'products' %}?category=landscape_art" class="dropdown-item">Landscape Art</a>
+                    <a href="{% url 'products' %}?category=flower_painting_art" class="dropdown-item">Flower painting</a>
+                    <a href="{% url 'products' %}?category=pop_art" class="dropdown-item">Pop Art</a>
+                    <a href="{% url 'products' %}?category=portrait_art" class="dropdown-item">Portrait Art</a>
+                    <a href="{% url 'products' %}?category=still_life_art" class="dropdown-item">Still Life</a>
+                    <a href="{% url 'products' %}?category=surrealism_art" class="dropdown-item">Surrealism</a>
+                    <a href="{% url 'products' %}?category=typography_art" class="dropdown-item">Typography</a>
+                    <a href="{% url 'products' %}?category=urban_art" class="dropdown-item">Urban Art</a>
+                </div>
+            </li>
         </li>
     </ul>
 </div>

@@ -83,7 +83,6 @@ As casual/first time user – As a site user that has not created an account, I 
 - Find out more about Lakeside Art Prints and to navigate it
 - Search for specific artist and art
 - Find detailed information retaining to the art and artist
-- Have a clear example of print sizes
 - View estimated delivery and costs
 - Add items to basket 
 - Review and edit and delete basket items
@@ -278,6 +277,11 @@ Web app colour design was selected to reflect an image chosen for the home page.
 
 colour selection from [Image Colour Picker](https://imagecolorpicker.com/en)
 
+### Hex colours
+
+- #997e65
+- #9e7e44
+- #54962c
 
 ## Typography
 

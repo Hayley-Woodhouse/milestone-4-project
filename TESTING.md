@@ -31,16 +31,56 @@ To test user stories a screen shot and brief description is provided as evidence
 
 As casual/first time user – As a site user that has not created an account, I want to be able to:
 
-- Find out more about Lakeside Art Prints and to navigate it
-- Search for specific artist and art
-- Find detailed information retaining to the art and artist
-- Have a clear example of print sizes
-- View estimated delivery and costs
-- Add items to basket 
-- Review and edit and delete basket items
-- Make purchases as a guest user
-- Create an account if I want to do more
-- Contact Lakeside Art Prints to report, query, and rectify and problems
+| Find out more about Lakeside Art Prints and to navigate it. |
+|----| 
+| To find out information about the site its delivery and returns and contact information, this can be found in collapsible buttons in the footer.|
+![about us](assets/readme-images/about_userstory.png)
+
+
+| Search for specific artist and art |
+|----|
+|The search option in the navbar will render data linked to the searched criteria. By art name, artist name, price, art style and date.|
+![search by artist](assets/readme-images/search-artist.png)
+![search by art](assets/readme-images/search-art-name.png)
+|Using the drop down tab the data display can be refind by art styles and all products.|
+![search bt category](assets/readme-images/search-cat.png)
+![refine category search](assets/readme-images/search-category.png)
+
+| Find detailed information retaining to the art and artist |
+|----|
+| When clicking on the selected product the details on the art name, style, artist and date of art work are displayed. |
+![product details](assets/readme-images/detail-user.png)
+
+| View estimated delivery and costs |
+|----|
+| Delivery costs are calculated in the shoppping bad. A total cost is visible on under the basket icon in the navbar. The free delivery threshold is also calculated for user to see how much more they could spend to achieve free delivery. | 
+![delivery cost](assets/readme-images/delivery-cost.png)
+
+| Add items to basket |
+|----|
+| When an item is selected the user continue to add the product to the bag by clicking the add to bag button |
+![add item to bag](assets/readme-images/add-to-bag-user.png)
+
+| Review and edit and delete basket items |
+|----|
+| The update button enables the user to change the quantity of item. Doing so would also update the cost and delivery implications. The remove button can delete the product from the bag. If it was the only product in the bag the user will be directed to the empty bag page. |
+![update and delete bag](assets/readme-images/edit-delete-user.png)
+![empy bag](assets/readme-images/empty-bag-user.png)
+
+| Make purchases as a guest user |
+|----|
+| Guest users can make purchaces and confirmation page will display the full order, cost and delivery address details. Also a confirmation email detail will display above the form. |
+![payment form](assets/readme-images/payment-form.png)
+![payment form](assets/readme-images/payment-confirmation.png)
+
+| Create an account if I want to do more |
+|----|
+
+| Contact Lakeside Art Prints to report, query, and rectify and problems |
+|----|
+| Contact details are avalible in collapsible button in the footer |
+![payment form](assets/readme-images/payment-confirmation.png)
+
 
 ## Registered User
 
@@ -57,9 +97,15 @@ As a site user that has created an account, I want to be able to:
 
 As the shop admin, I want to be able to:
 
-- Add products to the shop
-- Edit/ update a product with special offers
-- Delete a discontinued product
+| Add products to the shop |
+|----|
+| Simply select products and add product. From there fill in the required fields and save. The product details will be added to the product list.|
+![add product admin](assets/readme-images/add-product-admin.png)
+
+| Edit/ update a product & Delete a discontinued product |
+|----|
+| Selecting an individual project and the field can be altered and saved. The detete button will also remove the product completely. |
+![update and delete products admin](assets/readme-images/edit-product-admin.png)
 ___
 # Responsive
 

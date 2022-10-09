@@ -50,6 +50,7 @@ ___
     * [Programming Languages](#programming-languages)
     * [Libraries](#libraries)
     * [Frameworks and Extentions](#frameworks-and-extentions)
+    * [Installed Packages](#installed-packages)
     * [Database](Database)
     * [Hosting and IDE](#hosting-and-ide)
     * [Design and Development](#design-and-development)
@@ -542,6 +543,20 @@ The followng technologies were used for the web app development
 
     provides APIs that web developers can use to integrate payment processing into their websites and mobile applications.
 
+## Installed Packages
+
+- [Pillow](https://pypi.org/project/Pillow/)
+    
+    This library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.
+
+- [Django Crispy Form](https://django-crispy-forms.readthedocs.io/en/latest/)
+
+    Django-crispy-forms provides you with a crispy filter and {% crispy %} will let you control the rendering behavior of your Django forms. 
+
+- [Django Countries](https://pypi.org/project/django-countries/)
+
+    A Django application that provides country choices for use with forms, flag icons static files, and a country field for models.
+    
 ## Database
 
 - [Heroku Postgres](https://en.wikipedia.org/wiki/Heroku)

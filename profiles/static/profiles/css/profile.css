@@ -1,0 +1,13 @@
+#profile-update-form .form-control {
+    color: #000; 
+}
+
+#profile-update-form input::placeholder {
+    color: #aab7c4;
+}
+
+#profile-update-form .form-control {
+    color: #000;
+    border: 1px solid #997e65 !important;
+    border-radius: 3px !important;
+}

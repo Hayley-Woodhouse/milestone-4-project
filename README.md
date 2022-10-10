@@ -556,10 +556,6 @@ The followng technologies were used for the web app development
 - [Django Crispy Form](https://django-crispy-forms.readthedocs.io/en/latest/)
 
     Django-crispy-forms provides you with a crispy filter and {% crispy %} will let you control the rendering behavior of your Django forms. 
-
-- [Django Countries](https://pypi.org/project/django-countries/)
-
-    A Django application that provides country choices for use with forms, flag icons static files, and a country field for models.
     
 ## Database
 

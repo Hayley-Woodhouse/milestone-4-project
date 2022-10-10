@@ -75,6 +75,8 @@ As casual/first time user – As a site user that has not created an account, I 
 
 | Create an account if I want to do more |
 |----|
+| An account can be created via the my account drop down in the navbar. Alternativly a registration link is provided before checkout. |
+![profile registration form](assets/readme-images/register-user.png)
 
 | Contact Lakeside Art Prints to report, query, and rectify and problems |
 |----|
@@ -86,12 +88,35 @@ As casual/first time user – As a site user that has not created an account, I 
 
 As a site user that has created an account, I want to be able to:
 
-- Do all that a casual user can
-- Easily register for an account
-- Log in and out with ease
-- Edit my profile and update details, change of address, name etc
-- View my full purchase history
-- Retrieve or reset forgotten passwords
+| Do all that a casual user can |
+|----|
+| All requirements are met in the user stories |
+
+| Easily register for an account |
+|----|
+| An account can be created via the my account drop down in the navbar. Alternativly a registration link is provided before checkout. |
+![profile registration form](assets/readme-images/register-user.png)
+
+| Log in and out with ease |
+|----|
+| A simple sign in form, once completed, will direct the user to their profile page. Using the link in the navbar the user can re-view thier page and log out |
+![profile sign in](assets/readme-images/sign-in-user.png)
+![profile sign out](assets/readme-images/sign-out-user.png)
+
+| Edit my profile and update details, change of address, name etc |
+|----|
+| The user can update their contact number and delivery details. Also when the user makes payment the delivery details will auto fill with their profile details |
+![profile page](assets/readme-images/profile-user.png)
+![profile autofill](assets/readme-images/profile-autofill-user.png)
+
+| View my full purchase history |
+|----|
+| When the account user makes a purchace the order details will be logged on the profile page order history. Additionally clicking on the order number will display the full order details.
+![profile purchase history](assets/readme-images/profile-order-summary-user.png)
+
+| Retrieve or reset forgotten passwords |
+|----|
+| Given the project time scale this has been marked as an immediate update |
 
 ## Admin 
 

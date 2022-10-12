@@ -3,7 +3,7 @@ ___
 
 The Lakeside Art Prints web app enables users to shop and buy popular and to scale art prints. Bringing renowned and new artist home. 
 
-Click [https://lakeside-prints.herokuapp.com/]() to view the Lakeside Art Prints app.
+Click [https://lakeside-prints.herokuapp.com](Lakeside Prints) to view the Lakeside Art Prints app.
 
 ___
 

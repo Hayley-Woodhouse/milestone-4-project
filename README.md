@@ -42,8 +42,12 @@ ___
         * [Artist Dataset](#artish-dataset)
         * [Art Dataset](#art-dataset)
 * [Database](#database)
-* [Website Operation](#website-operations)
-   
+* [Website Operation](#website-operation)
+    * [Home Page](#home-page)
+    * [All Product and Searching](#all-product-and-searching)
+    * [Product Selection and Add To Bag](#product-selection-and-add-to-bag)
+    * [Payment and confirmation](#payment-and-confirmation)
+    * [Account holders](#account-holders)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Technologies](#technologies)
@@ -471,11 +475,44 @@ The information gathered for the datasets comes from [Wikipedia](https://en.wiki
 ___
 # Database
 
-[Back to top](#contents)
 ___
 # Website Operation
 
+## Home Page
+Home page with scrolling footer. The logo acts as a anchor back to the home page. The Product page can be accessed via the 'shop now' button or the 'all product' dropdown seleting 'all products'.
+![about us](assets/readme-images/about_userstory.png)
 
+[Back to top](#contents)
+
+## All Product and Searching
+Using the search field in the navbar the user can refine their product view. The options will pick out any words that are recognised in the product title and description.
+The sort by dropdown will render the view by price (high to low or low to high), Name (A-Z or Z-A), and category (A-Z or Z-A).
+![about us](assets/readme-images/product-view.png)
+
+[Back to top](#contents)
+
+## Product Selection and Add To Bag
+Clicking on the product image will direct the user to the product description page. From here the user can select quantity. In the bag view the user can update or delete the selection. Removing all item from the bag will redirect the user to the empty bag page.
+![update and delete bag](assets/readme-images/edit-delete-user.png)
+![empy bag](assets/readme-images/empty-bag-user.png)
+
+[Back to top](#contents)
+
+## Payment and confirmation
+Using Stripe payment to complete the payment has been tested using strips internation test cards (visa 4242424242424242 cvc any numbers) or (autentication 4000002500003155). Once the form and payment passes the confirmation page will provide price, order details, and users field input details.
+![payment form](assets/readme-images/payment-form.png)
+![payment form](assets/readme-images/payment-confirmation.png)
+
+[Back to top](#contents)
+
+## Account holders
+Account holders created accounts via the navbar account dropdown. From here they can log out and log in on a returning visit. The user can update there delivery information from their profile page and payment forms will auto complete with this information. The profile page will also list all previous order details.
+![profile registration form](assets/readme-images/register-user.png)
+![profile sign in](assets/readme-images/sign-in-user.png)
+![profile sign out](assets/readme-images/sign-out-user.png)
+![profile page](assets/readme-images/profile-user.png)
+![profile autofill](assets/readme-images/profile-autofill-user.png)
+![profile purchase history](assets/readme-images/profile-order-summary-user.png)
 
 [Back to top](#contents)
 ___
@@ -628,7 +665,7 @@ ___
 # Credits
 
 - The information gathered for the datasets comes from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [WikiArt](https://www.wikiart.org/) and list of galleries and artist websites that are listed with the products images.
-- Videos and teachings from [code institute](https://codeinstitute.net/) 
+- Videos and teachings from [code institute](https://codeinstitute.net/)
 - Tuition, guidence, and project guidelines from [Harlow College](https://www.harlow-college.ac.uk/)
 
 For development design support the following websites were used for research
@@ -636,11 +673,21 @@ For development design support the following websites were used for research
 - [Desenio](https://desenio.co.uk/) 
 - [King and McGaw](https://www.kingandmcgaw.com/)
 
-
-
 [Back to top](#contents)
 ___
 # Acknowledgements
+
+This web site was created for my fourth milestone project for the full stack development diploma with the code instatute and harlow college.
+
+With thanks to 
+
+My fellow class mates for there support and assistance.
+
+Philip Morris for the tuition and guidence.
+
+Richard Woodhouse for support and user testing.
+
+[Back to top](#contents)
 
 [Back to top](#contents)
 

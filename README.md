@@ -43,7 +43,7 @@ ___
         * [Art Dataset](#art-dataset)
 * [Database](#database)
 * [Website Operation](#website-operations)
-    * [Allauth](#allauth)
+   
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Technologies](#technologies)
@@ -475,15 +475,7 @@ ___
 ___
 # Website Operation
 
-## Allauth
-Authentication using django allauth
 
-Testing that allauth has been setup correctly.
-![allauth](assets/readme-images/allauth_testing.png)
-manually creating a user email address via admin and enabling authentication.
-![allauth](assets/readme-images/allauth2.png)
-The error messsage shows that the redirct (success) has worked and that authentication is running correctly.
-![allauth](assets/readme-images/allauth3.png)
 
 [Back to top](#contents)
 ___

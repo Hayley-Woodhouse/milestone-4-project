@@ -17,10 +17,13 @@
     * [JS Hint](#js-hint)
     * [PEP8](#pep8)
 * [Bugs](#bugs)
+    * [Allauth](#allauth)
 * [Furture Updates](#future-updates)
 ___
 # MANUAL TESTING
 Manual testing is when project designers and developers to inspect software for defects. It requires the devloper to play the role of an end user where by they use most of the application's features to ensure correct behaviour.
+
+[Back to top](#contents)
 
 ___
 # User Stories
@@ -83,6 +86,7 @@ As casual/first time user – As a site user that has not created an account, I 
 | Contact details are avalible in collapsible button in the footer |
 ![payment form](assets/readme-images/payment-confirmation.png)
 
+[Back to top](#contents)
 
 ## Registered User
 
@@ -118,6 +122,8 @@ As a site user that has created an account, I want to be able to:
 |----|
 | Given the project time scale this has been marked as an immediate update |
 
+[Back to top](#contents)
+
 ## Admin 
 
 As the shop admin, I want to be able to:
@@ -131,13 +137,20 @@ As the shop admin, I want to be able to:
 |----|
 | Selecting an individual project and the field can be altered and saved. The detete button will also remove the product completely. |
 ![update and delete products admin](assets/readme-images/edit-product-admin.png)
+
+[Back to top](#contents)
+
 ___
 # Responsive
 
+The sites responsive design was tested using Google Crome and firefox devTools
+
 || Small Mobile | Med Mobile | Tablet | Laptop | Large Laptop | Desktop |
 | --- | --- | --- | --- | --- | --- | --- | 
-| site | ||||||
-| images ||||||
+| site | Pass |Pass | Pass | Pass | Pass | Pass |
+| images | Pass |Pass |Pass |Pass |Pass |Pass |
+
+[Back to top](#contents)
 ___
 # Browsers
 
@@ -146,43 +159,83 @@ ___
 - [Safari](https://en.wikipedia.org/wiki/Safari_(web_browser)) *'is a graphical web browser developed by Apple.'*
 - [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox) *'is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.'*
 
+[Back to top](#contents)
+
 ___
 # AUTOMATED TESTING
 
 Automated testing is the use of a software separate from the software being tested to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
+
+[Back to top](#contents)
+
 ___
 # Lighthouse
 *'An open-source, automated tool for measuring the quality of web pages.'* - [Wikipedia Google Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse)
+![Lighthouse testing](assets/readme-images/lighthouse-test.png)
+
+[Back to top](#contents)
 
 ___
 # W3 validator
 *'is a validator by the World Wide Web Consortium (W3C) that allows Internet users to check pre-HTML5 HTML and XHTML documents for well-formed markup against a document type definition.'* - [ Wikipedia W3 validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)
+![Html testing](assets/readme-images/html-test.png)
+
+Testing html was used in fragments as python code displayed errors. With these pieces of codes ignored the code past validation.
+
+[Back to top](#contents)
 
 ___
 # W3 Jigsaw
 *'is a CSS validator and free software developed by W3C, and a free online service.'* - [W3 Jigsaw](https://www.w3.org/wiki/CssValidator)
-    
-    
+![Css testing error](assets/readme-images/css-test.png)
+
+Css testing displayed a single error stating an anchor in a comment didnt have a closing tag. With the closing tag added, the code past validation.
+![Css testing pass](assets/readme-images/css-test2.png)
+
+[Back to top](#contents)
 
 ___
 # JS Hint
 *'is a static code analysis tool used in software development for checking if JavaScript source code complies with coding rules.'* - [Wikipedia JS Hint](https://en.wikipedia.org/wiki/JSHint)
+![JS testing](assets/readme-images/js-test.png)
+With two minor warnings the code passed validation.
+
+[Back to top](#contents)
 
 ___
 # PEP8
 *'is a python validating tool used in software development.'* - [PEP8](http://pep8online.com/)
+![Python testing](assets/readme-images/python-test.png)
 
-    
+ [Back to top](#contents)   
 
 ___
 # Bugs
 
 | Test number | Description | Expectation | Outcome | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- | --- |
-| 1 ||||||
-| 2 ||||||
-| 3 ||||||
+| 1 | css mobile nav miss-aligned | expected inline links | links stack forcing the navbar to extend down the page | Fail | test 1 |
+| 2 | css mobile nav miss-aligned | expected inline links | reduced padding at mobile query | pass | test 1-review |
+| 3 | admin login | login to admin account | login failed error | fail | test 2 |
+| 4 | admin login | login to admin account | temporary commented out signal, logged into admin via html login page, reactivated signal | pass | test 2- review|
 
+## Allauth
+Authentication using django allauth
+
+Testing that allauth has been setup correctly.
+![allauth](assets/readme-images/allauth_testing.png)
+manually creating a user email address via admin and enabling authentication.
+![allauth](assets/readme-images/allauth2.png)
+The error messsage shows that the redirct (success) has worked and that authentication is running correctly.
+![allauth](assets/readme-images/allauth3.png)
+
+[Back to top](#contents)
 
 ___
 # Future Updates
+
+- Create a superuser for admin to add, update and remove products via the page login.
+
+- Add delete function for the registered users to delete their user account.
+
+[Back to top](#contents)

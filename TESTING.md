@@ -231,6 +231,11 @@ The error messsage shows that the redirct (success) has worked and that authenti
 
 [Back to top](#contents)
 
+## Payment testing
+Strip payment testing. To ensure that strip payment was set up and that payment was received to strip payment system.
+![Strip payment](assets/readme-images/payment-testing.png)
+
+
 ___
 # Future Updates
 

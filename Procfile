@@ -1,1 +1,1 @@
-web: gunicorn lakeside-prints.wsgi:application
+web: gunicorn lakeside_prints.wsgi:application

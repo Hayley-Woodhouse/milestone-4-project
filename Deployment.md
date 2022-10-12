@@ -74,9 +74,6 @@ To deploy the project to Heroku you need to:
 | STRIPE_SECRET_KEY | Value attained from Stripe Account (see Stripe Setup) |
 | STRIPE_WH_SECRET | Value attained from stripe webhook endpoint (see Stripe Setup) |
 | DATABASE_URL | automatically setup during Heroku deployment and can be found by viewing your Postgres database within the Heroku dashboard, under Settings Database Credentials |
-| USE_AWS | True |
-| AWS_ACCESS_KEY_ID | Generated key from AWS (see AWS Setup section) |
-| EMAIL_HOST_PASS | Password provided by the email provider (see Email Setup section) |
 
 To have your project automatically deploy to Heroku when you push the repository to Github you need to set up automatic deployment. To do this you need to:
 1. Click the deploy tab on your Heroku App.

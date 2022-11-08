@@ -475,15 +475,33 @@ The information gathered for the datasets comes from [Wikipedia](https://en.wiki
 ___
 # Database
 
+The sqlite3 development database was used during the build to provide the app with real time screen testing.
+
+Once the app was uploaded to heroku the heroku postgres relational database was installed to handel the product, catergory orders and profile data. 
+
+AWS Stores the static files and images that run on the app.
+
+The Database Schema below provides a visual map of the database models used within the app and how they are connected
+
 ![Database scema](assets/readme-images/database_schema.png)
+
+The Category model provides two input types for each category created. The name of the category, which is usually coded and not reader friendy, and the friendly name with is reader friendly and is displayed on screen.
 
 ![Category model](assets/readme-images/category_model.png)
 
+The products model provides 6 input fields. The category foriegn key with links the product to its particualar category. The sku which is a unique product number. The name, description, price and image input fields.
+
 ![Products model](assets/readme-images/products_model.png)
+
+The order model provides 17 input fields. The user_profile foreign key link to the user profile. The stripe_pid provides a payment number. The remaining fields are standard order names and delivery details.
 
 ![Order model](assets/readme-images/order_model.png)
 
+The order line items model diplays the order details. 
+
 ![Order line item model](assets/readme-images/orderLinneItem_model.png)
+
+The User profile model provides the users registration details.
 
 ![User profile model](assets/readme-images/userProfile_model.png)
 

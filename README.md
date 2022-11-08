@@ -475,6 +475,20 @@ The information gathered for the datasets comes from [Wikipedia](https://en.wiki
 ___
 # Database
 
+![Database scema](assets/readme-images/database_schema.png)
+
+![Category model](assets/readme-images/category_model.png)
+
+![Products model](assets/readme-images/products_model.png)
+
+![Order model](assets/readme-images/order_model.png)
+
+![Order line item model](assets/readme-images/orderLinneItem_model.png)
+
+![User profile model](assets/readme-images/userProfile_model.png)
+
+
+
 ___
 # Website Operation
 
